@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "637670900503",
+    "firebase_url": "https://duplom-3c3a6.firebaseio.com",
+    "project_id": "duplom-3c3a6",
+    "storage_bucket": "duplom-3c3a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637670900503:android:340479181e376d3b26ed52",
+        "android_client_info": {
+          "package_name": "com.example.duplom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637670900503-goit70hm2kts6di234hq4cg7r650asnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.duplom",
+            "certificate_hash": "1f00a9af5792da71c8aa54031c0b395546636f35"
+          }
+        },
+        {
+          "client_id": "637670900503-9vcks0788l5brvfcoo6krqt5472pbpq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkGO1adWL09vUDsr8c83jLglbneyGSUDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637670900503-9vcks0788l5brvfcoo6krqt5472pbpq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
