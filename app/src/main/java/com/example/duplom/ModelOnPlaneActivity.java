@@ -21,7 +21,8 @@ public class ModelOnPlaneActivity extends AppCompatActivity {
 
     private ArFragment arFragment;
     private static final String GLTF_ASSET =
-            "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf";
+            "https://firebasestorage.googleapis.com/v0/b/duplom-3c3a6.appspot.com/o/Darwin.glb?alt=media&token=da052de7-a17b-4aff-8074-b54c5d42fdda";
+
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +37,8 @@ public class ModelOnPlaneActivity extends AppCompatActivity {
                     .setSource(this, RenderableSource.builder().setSource(
                             this,
                             Uri.parse(GLTF_ASSET),
-                            RenderableSource.SourceType.GLTF2)
-                            .setScale(0.5f)  // Scale the original model to 50%.
+                            RenderableSource.SourceType.GLB)
+                            .setScale(0.3f)  // Scale the original model to 50%.
                             .setRecenterMode(RenderableSource.RecenterMode.ROOT)
                             .build())
                     .setRegistryId(GLTF_ASSET)

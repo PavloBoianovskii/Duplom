@@ -10,10 +10,22 @@
         android:id="@+id/model_on_plane"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="arTypeModelOnPlane"
         android:text="Put your model on plane"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="arTypeModelOnPlane"/>
+        app:layout_constraintVertical_bias="0.229" />
+
+    <Button
+        android:id="@+id/ar_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set AR image"
+        android:onClick="arTypeArImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/model_on_plane" />
 </androidx.constraintlayout.widget.ConstraintLayout>
