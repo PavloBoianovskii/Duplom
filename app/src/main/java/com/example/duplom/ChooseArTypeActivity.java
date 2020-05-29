@@ -15,12 +15,16 @@ public class ChooseArTypeActivity extends AppCompatActivity {
     }
 
     public void arTypeModelOnPlane(View view) {
-        Intent intent = new Intent(this, ModelOnPlaneActivity.class);
-        startActivity(intent);
+        Intent intentModel = new Intent(this, ModelOnPlaneActivity.class);
+        startActivity(intentModel);
     }
 
     public void arTypeArImage(View view) {
         Intent intentImage = new Intent(this, ArImageActivity.class);
         startActivity(intentImage);
+    }
+    public void arTypeArVideo(View view) {
+        Intent intentVideo = new Intent(this, ArVideoActivity.class);
+        startActivity(intentVideo);
     }
 }

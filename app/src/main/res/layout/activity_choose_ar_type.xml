@@ -4,28 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChooseArTypeActivity">
+    tools:context=".ChooseArTypeActivity"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/ar_video2"
+        android:layout_width="237dp"
+        android:layout_height="68dp"
+        android:background="@color/cardview_light_background"
+        android:onClick="arTypeArVideo"
+        android:text="Create 3D objects during runtime"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_image"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <Button
+        android:id="@+id/ar_video3"
+        android:layout_width="231dp"
+        android:layout_height="73dp"
+        android:background="@color/cardview_light_background"
+        android:onClick="arTypeArVideo"
+        android:text="Use cloud anchors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_image"
+        app:layout_constraintVertical_bias="0.743" />
 
     <Button
         android:id="@+id/model_on_plane"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="235dp"
+        android:layout_height="70dp"
+        android:background="@color/cardview_light_background"
         android:onClick="arTypeModelOnPlane"
-        android:text="Put your model on plane"
+        android:text="Create 3D model on any plain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.071" />
 
     <Button
         android:id="@+id/ar_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Set AR image"
+        android:layout_width="240dp"
+        android:layout_height="69dp"
+        android:background="@color/cardview_light_background"
         android:onClick="arTypeArImage"
+        android:text="Anchor your model to image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/model_on_plane" />
+        app:layout_constraintTop_toBottomOf="@+id/model_on_plane"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <Button
+        android:id="@+id/ar_video"
+        android:layout_width="237dp"
+        android:layout_height="69dp"
+        android:background="@color/cardview_light_background"
+        android:onClick="arTypeArVideo"
+        android:text="Anchor video to image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_image"
+        app:layout_constraintVertical_bias="0.134" />
 </androidx.constraintlayout.widget.ConstraintLayout>
